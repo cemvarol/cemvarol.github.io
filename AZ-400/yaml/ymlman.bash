@@ -20,7 +20,8 @@ L=${R:: -1}
 
 clear
 
-echo -e "\nPlease take a note of these \nHosting Plan Name is $HP \nResource Group Name is $RG\nServer Name is $E\nWebsite Name is $E \n"
+echo -e "\nPlease take a note of these \nHosting Plan Name is $HP \nResource Group Name is $RG\nServer Name is $E\nWebsite Name is $E \nSubscription id is $L"
+
 
 #
 
