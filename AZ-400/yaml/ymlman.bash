@@ -7,6 +7,8 @@ B=${A:$(echo `expr index "$A" @`)}
 C=${B:: -24}
 D=$(echo "$C"ydb01)
 E=$(echo "$C"ywa01)
+F=$(echo "$E".azurewebsites.net)
+G=$(echo https://"$F")
 RG=YAML
 L=EastUS
 HP=YML-SVC01
@@ -20,7 +22,7 @@ L=${R:: -1}
 
 clear
 
-echo -e "\nPlease take a note of these \nHosting Plan Name is $HP \nResource Group Name is $RG\nWebsite Name is $E\nServer Name is $E \nSubscription id is $L"
+echo -e "\nPlease take a note of these \nHosting Plan Name is $HP \nResource Group Name is $RG\nWebsite Name is $E\nWebsite Address is $G \nSubscription id is $L"
 
 
 #
