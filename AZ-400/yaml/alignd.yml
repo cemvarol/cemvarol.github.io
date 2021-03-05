@@ -50,7 +50,7 @@ stages:
     - task: AzureRmWebAppDeployment@4
       inputs:
         ConnectionType: AzureRM
-        azureSubscription: Azure Pass - Sponsorship(6da8797b-70e1-4845-abdc-d3251616055b)
+        azureSubscription: Azure Pass - Sponsorship(b8700334-bde2-430a-b982-ba6783769cbe)
         appType: webApp
-        WebAppName: cvaz122002wa01
+        WebAppName: cvaz032101ywa01
         packageForLinux: $(System.ArtifactsDirectory)/drop/*.zip
