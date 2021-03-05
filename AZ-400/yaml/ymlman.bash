@@ -14,7 +14,9 @@ user=sysadmin
 pass=1q2w3e4r5t6y*
 startip=0.0.0.0
 endip=255.255.255.255
-
+P=$(az account show --query id)
+R=${P:$(echo `expr index "$P" '"'`)}
+L=${R:: -1}
 
 clear
 
