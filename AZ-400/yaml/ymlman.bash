@@ -19,3 +19,6 @@ endip=255.255.255.255
 clear
 
 echo -e "\nPlease take a note of these \nHosting Plan Name is $HP \nResource Group Name is $RG\nServer Name is $E\nWebsite Name is $E \n"
+
+#
+
