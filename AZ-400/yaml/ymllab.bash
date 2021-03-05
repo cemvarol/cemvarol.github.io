@@ -14,6 +14,9 @@ user=sysadmin
 pass=1q2w3e4r5t6y*
 startip=0.0.0.0
 endip=255.255.255.255
+P=$(az account show --query id)
+R=${P:$(echo `expr index "$P" '"'`)}
+L=${R:: -1}
 
 Y=$(echo "'Data Source=tcp:"$D".database.windows.net,1433;Initial Catalog=partsunlimited;User Id=sysadmin@"$D".database.windows.net;Password="$pass";'")
 
@@ -45,5 +48,5 @@ az webapp create -g $RG -p $HP -n $E
 #Add DB Connection string to webapp
 az webapp config connection-string set --connection-string-type SQLAzure --name $E --resource-group $RG --settings DefaultConnectionString="$Y"
 
-echo -e "\nPlease take a note of these \nHosting Plan Name is $HP \nResource Group Name is $RG\nServer Name is $E\nWebsite Name is $E \n"
+echo -e "\nPlease take a note of these \nHosting Plan Name is $HP \nResource Group Name is $RG\nServer Name is $E\nWebsite Name is $E \nSubscription id is $L"
 
