@@ -18,11 +18,11 @@ startip=0.0.0.0
 endip=255.255.255.255
 P=$(az account show --query id)
 R=${P:$(echo `expr index "$P" '"'`)}
-L=${R:: -1}
+LL=${R:: -1}
 
 clear
 
-echo -e "\nPlease take a note of these \nHosting Plan Name is $HP \nResource Group Name is $RG\nWebsite Name is $E\nWebsite Address is $G \nSubscription id is $L"
+echo -e "\nPlease take a note of these \nHosting Plan Name is $HP \nResource Group Name is $RG\nWebsite Name is $E\nWebsite Address is $G \nSubscription id is $LL"
 
 
 #
