@@ -51,3 +51,5 @@ az webapp create -g $RG -p $HP -n $E
 az webapp config connection-string set --connection-string-type SQLAzure --name $E --resource-group $RG --settings DefaultConnectionString="$Y"
 
 echo -e "\nPlease take a note of these \nHosting Plan Name is $HP \nResource Group Name is $RG\nWebsite Name is $E\nWebsite Address is $G \nSubscription id is $LL"
+
+#
