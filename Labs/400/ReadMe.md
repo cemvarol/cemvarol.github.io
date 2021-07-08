@@ -18,7 +18,7 @@ Deploying multi-container application to Azure Kubernetes Services	https://azure
 Automating infrastructure deployments in the Cloud with Terraform	https://azuredevopslabs.com/labs/vstsextend/terraform/
 Deploy app with Puppet on Azure	http://microsoft.github.io/PartsUnlimitedMRP/iac/200.2x-IaC-DeployappwithPuppetonAzure.html
 Deploy app with Ansible on Azure	http://microsoft.github.io/PartsUnlimitedMRP/iac/200.2x-IaC-DeployappwithPuppetonAzure.html
-![image](https://user-images.githubusercontent.com/27964413/124924313-3e49c100-dff3-11eb-870a-a6b351e4b7f3.png)
+
 
 
 
