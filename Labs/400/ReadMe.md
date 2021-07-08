@@ -31,9 +31,9 @@
 
 [Automating infrastructure deployments in the Cloud with Terraform](https://azuredevopslabs.com/labs/vstsextend/terraform/)
 
-[Deploy app with Puppet on Azure](http://microsoft.github.io/PartsUnlimitedMRP/iac/200.2x-IaC-DeployappwithPuppetonAzure.html)
+[Deploy app with Puppet on Azure](https://microsoft.github.io/PartsUnlimitedMRP/iac/200.2x-IaC-DeployappwithPuppetonAzure.html)
 
-[Deploy app with Ansible on Azure](http://microsoft.github.io/PartsUnlimitedMRP/iac/200.2x-IaC-DeployappwithPuppetonAzure.html)
+[Deploy app with Ansible on Azure](https://microsoft.github.io/PartsUnlimitedMRP/iac/200.2x-IaC-DeployappwithPuppetonAzure.html)
 
 
 
