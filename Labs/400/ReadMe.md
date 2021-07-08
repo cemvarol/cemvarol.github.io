@@ -1,5 +1,5 @@
 ### [AZ-400 Labs](https://github.com/cemvarol/cemvarol.github.io/tree/main/Labs/400)
-[Create Devops Organization](hhttps://app.vsaex.visualstudio.com/signup)
+[Create Devops Organization](https://app.vsaex.visualstudio.com/signup)
 
 
 
